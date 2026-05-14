@@ -1,3 +1,5 @@
-print("hello world")
-print("good morning")
-print (" my self prachi")
+def greet(name):
+    return f"Hello, {name}!"
+
+message = greet("Alice")
+print(message)
